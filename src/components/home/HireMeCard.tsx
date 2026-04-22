@@ -25,7 +25,7 @@ export default function HireMeCard() {
                         </p>
                     </div>
 
-                    <button className="px-12 py-5 rounded-full bg-hero-accent text-white font-black text-lg hover:opacity-90 transition-all active:scale-95 shadow-xl">
+                    <button className="px-12 py-5 rounded-full bg-hero-accent text-base-content font-black text-lg hover:opacity-90 transition-all active:scale-95 shadow-xl">
                         {t('home.cta.button')}
                     </button>
                 </div>
