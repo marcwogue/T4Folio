@@ -7,6 +7,8 @@ import Sidebar from './Sidebar';
 import MinecraftTransition from './MinecraftTransition';
 import WaveTransition from './WaveTransition';
 
+import MobileHelper from './MobileHelper';
+
 export default function Layout() {
     const [isSidebarExpanded, setIsSidebarExpanded] = useState(false);
 
@@ -15,6 +17,7 @@ export default function Layout() {
             <ParticleField />
             <MinecraftTransition />
             <WaveTransition />
+            <MobileHelper />
 
             <Sidebar isExpanded={isSidebarExpanded} onToggle={() => setIsSidebarExpanded(!isSidebarExpanded)} />
 

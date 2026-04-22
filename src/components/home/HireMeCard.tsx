@@ -9,7 +9,7 @@ export default function HireMeCard() {
         <section className="py-0 h-full col-span-3">
             <motion.div
                 whileHover={{ scale: 1.01 }}
-                className="relative bg-hero-bg rounded-[2rem] md:rounded-[3rem] p-6 md:p-12 h-full overflow-hidden shadow-2xl flex flex-col justify-center items-center text-center gap-6 md:gap-8"
+                className="relative bg-hero-bg rounded-4xl md:rounded-[3rem] p-6 md:p-12 h-full overflow-hidden shadow-2xl flex flex-col justify-center items-center text-center gap-6 md:gap-8"
             >
                 <div className="relative z-10 flex flex-col items-center text-center gap-6 md:gap-8">
                     <div className="w-12 h-12 md:w-16 md:h-16 rounded-2xl bg-hero-accent/20 flex items-center justify-center text-hero-accent">

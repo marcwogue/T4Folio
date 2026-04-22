@@ -182,8 +182,8 @@
             "awards": "pour obtenir des resultats"
         },
         "cta": {
-            "title": "PRÊT À COMMENCER ?",
-            "subtitle": "Disponible pour de nouveaux défis créatifs.",
+            "title": "Prêt à construire quelque chose d'incroyable ?",
+            "subtitle": "Je suis disponible pour des projets freelance et des opportunités à temps plein.",
             "button": "ENGAGEZ-MOI"
         },
         "services": {
@@ -428,9 +428,15 @@
         "downloadResume": "Télécharger mon CV"
     },
     "resumeModal": {
-        "title": "Choisir la langue",
+        "title": "Selectionner la langue",
         "fr": "Français",
         "en": "Anglais",
         "close": "Fermer"
+    },
+    "mobile": {
+        "helper": {
+            "swipeText": "Glissez depuis la gauche pour ouvrir le menu",
+            "gotIt": "Compris"
+        }
     }
 }

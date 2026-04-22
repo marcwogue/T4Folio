@@ -182,8 +182,8 @@
             "awards": "To Get results"
         },
         "cta": {
-            "title": "READY TO START?",
-            "subtitle": "Available for new creative challenges.",
+            "title": "Ready to build something amazing?",
+            "subtitle": "I'm available for freelance projects and full-time opportunities.",
             "button": "HIRE ME"
         },
         "services": {
@@ -432,5 +432,11 @@
         "fr": "French",
         "en": "English",
         "close": "Close"
+    },
+    "mobile": {
+        "helper": {
+            "swipeText": "Swipe from the left to open the menu",
+            "gotIt": "Got it"
+        }
     }
 }

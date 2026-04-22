@@ -46,7 +46,7 @@ export default function ServiceCards() {
                         >
                             <motion.div
                                 whileHover={{ y: -10 }}
-                                className="group relative bg-[#13131a] rounded-[2rem] md:rounded-[2.5rem] p-6 md:p-10 border border-white/5 overflow-hidden transition-all hover:border-white/10"
+                                className="group relative bg-[#13131a] rounded-4xl md:rounded-[2.5rem] p-6 md:p-10 border border-white/5 overflow-hidden transition-all hover:border-white/10"
                             >
                                 <div className="flex flex-col gap-6 relative z-10">
                                     <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center">
