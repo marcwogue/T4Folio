@@ -6,7 +6,7 @@ export default function VideoHero() {
     const { t } = useTranslation();
 
     return (
-        <section id="studio" className="mb-32">
+        <section id="studio" className="mb-16 md:mb-32">
             <div className="flex flex-col lg:flex-row gap-12 items-start justify-between">
                 <div className="max-w-3xl">
                     <motion.span

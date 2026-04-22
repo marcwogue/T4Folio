@@ -694,7 +694,7 @@ export default function RetroTV() {
     const isPortrait = isPortraitRatio(aspectRatio);
 
     return (
-        <div ref={containerRef} className="relative" style={{ height: '150vh' }}>
+        <div ref={containerRef} className="relative" style={{ height: '120vh' }}>
             <div className="sticky top-0 h-screen flex flex-col items-center justify-end pb-8">
                 {/* Section badge */}
                 <div className="pt-6 pb-2 text-center">
@@ -708,7 +708,7 @@ export default function RetroTV() {
                 </div>
 
                 {/* 3D Canvas */}
-                <div className="w-full max-w-5xl" style={{ height: '55vh' }}>
+                <div className="w-full max-w-5xl" style={{ height: '45vh' }}>
                     <Canvas
                         camera={{ position: [0, 0, 6], fov: 40 }}
                         dpr={[1, 2]}

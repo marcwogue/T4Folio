@@ -9,7 +9,7 @@ export default function Home() {
             <Hero />
             <div className="bg-base-100">
                 <ServiceCards />
-                <div className="grid grid-cols-1 lg:grid-cols-8 items-center">
+                <div className="grid grid-cols-1 lg:grid-cols-8 items-stretch gap-4 md:gap-0">
                     <Achievements />
                     <HireMeCard />
                 </div>

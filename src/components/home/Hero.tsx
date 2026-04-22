@@ -26,14 +26,14 @@ export default function Hero() {
                             animate={{ opacity: 1, y: 0 }}
                             className="flex flex-col gap-0 w-full"
                         >
-                            <h1 className="text-[min(12rem,20vw)] md:text-[clamp(8rem,15vw,18rem)] font-black text-hero-text leading-[0.8] tracking-tighter truncate md:overflow-visible">
+                            <h1 className="text-[clamp(3.5rem,15vw,12rem)] md:text-[clamp(8rem,15vw,18rem)] font-black text-hero-text leading-[0.8] tracking-tighter truncate md:overflow-visible">
                                 {t('home.title')}
                             </h1>
-                            <div className="flex flex-col mt-8 lg:mt-4">
-                                <span className="text-hero-text-muted text-xs font-bold tracking-[0.3em] uppercase mb-2">
+                            <div className="flex flex-col mt-6 md:mt-8 lg:mt-4">
+                                <span className="text-hero-text-muted text-[10px] md:text-xs font-bold tracking-[0.3em] uppercase mb-2">
                                     FR / ED / V2
                                 </span>
-                                <span className="text-hero-text font-bold text-lg md:text-xl tracking-wide">
+                                <span className="text-hero-text font-bold text-base md:text-xl tracking-wide">
                                     {t('home.role')}
                                 </span>
                             </div>
@@ -42,7 +42,7 @@ export default function Hero() {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.1 }}
-                            className="text-hero-text-muted text-lg md:text-xl max-w-sm mt-8 leading-relaxed font-medium"
+                            className="text-hero-text-muted text-base md:text-xl max-w-sm mt-6 md:mt-8 leading-relaxed font-medium"
                         >
                             {t('home.heroSubtitle')}
                         </motion.p>

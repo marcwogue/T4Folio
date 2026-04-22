@@ -51,7 +51,7 @@ export default function VideoPortfolio() {
                 style={{ backgroundImage: `radial-gradient(var(--bc) 1px, transparent 1px)`, backgroundSize: '40px 40px' }}>
             </div>
 
-            <main className="relative z-10 max-w-7xl mx-auto px-6 py-12 lg:px-12">
+            <main className="relative z-10 max-w-7xl mx-auto px-4 md:px-6 py-8 md:py-12 lg:px-12">
                 <VideoHero />
                 <Showreel />
                 <RetroTVSection />

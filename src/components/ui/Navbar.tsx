@@ -37,6 +37,9 @@ export default function Navbar({ isSidebarExpanded }: NavbarProps) {
     };
 
     const navLinks = [
+        { path: '/', label: t('sidebar.labels.home') },
+        { path: '/video', label: t('sidebar.labels.creator') },
+        { path: '/gamedev', label: t('sidebar.labels.developer') },
         { path: '/portfolio', label: t('nav.portfolio') },
         { path: '/about', label: t('nav.about') },
         { path: '/resume', label: t('nav.resume') },

@@ -154,7 +154,19 @@ body {
 }
 
 section {
-  padding: 2rem;
+  padding: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  section {
+    padding: 5rem 2rem;
+  }
 }
 
 

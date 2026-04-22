@@ -50,7 +50,7 @@ export default function Sidebar({ isExpanded, onToggle }: SidebarProps) {
         <motion.aside
             initial={false}
             animate={{ width: isExpanded ? '280px' : '88px' }}
-            className="fixed top-0 left-0 h-screen bg-base-200 border-r border-base-300 z-60 flex flex-col transition-all duration-300 ease-in-out shadow-2xl"
+            className="fixed top-0 left-0 h-screen bg-base-200 border-r border-base-300 z-60 hidden md:flex flex-col transition-all duration-300 ease-in-out shadow-2xl"
         >
             {/* Header Section */}
             <div className="flex items-center px-6 h-24 border-b border-base-300 relative">
