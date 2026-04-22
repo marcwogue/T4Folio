@@ -1,0 +1,436 @@
+{
+    "nav": {
+        "home": "ACCUEIL",
+        "portfolio": "PORTFOLIO",
+        "about": "À PROPOS",
+        "resume": "RÉSUMÉ",
+        "downloadCV": "Télécharger CV",
+        "toggleTheme": "Changer le thème"
+    },
+    "hero": {
+        "greeting": "Bonjour, je suis",
+        "name": "Kamdem Woyim Franck Romain",
+        "title": "Artiste Créatif",
+        "titleHighlight": "Multidisciplinaire.",
+        "subtitle": "Créateur de Contenu • Designer Graphiste • Développeur de Jeux",
+        "cta1": "Montage Vidéo",
+        "cta2": "Développement de Jeux",
+        "scrollDown": "Défilez pour explorer"
+    },
+    "about": {
+        "title": "À Propos",
+        "description": "Je suis un créateur de contenu passionné, designer graphiste et développeur de jeux avec une expertise en production multimédia, animation 2D/3D et expériences interactives. Je donne vie aux visions créatives grâce à la technologie de pointe et l'innovation artistique."
+    },
+    "skills": {
+        "title": "Compétences & Expertise",
+        "graphism": "Graphisme",
+        "webDev": "Développement Web",
+        "animation3D": "Animation 3D/2D",
+        "contentCreation": "Création de Contenu",
+        "tools": "Outils & Logiciels"
+    },
+    "video": {
+        "heroTitle": "CRÉATEUR",
+        "heroTitleLine2": "DE CONTENU",
+        "heroSubtitle": "Créer des histoires visuelles qui captivent, engagent et inspirent à travers la création de contenu multimédia et le design innovant.",
+        "experienceTitle": "Expérience Professionnelle",
+        "startupValide": {
+            "title": "Startup Valide",
+            "role": "Créateur de Contenu",
+            "period": "2022 - 2025",
+            "description": "Un groupe de développeurs innovant ayant créé l'application Valide pour rendre les épreuves facile d'accès aux étudiants.",
+            "tasks": [
+                "Création de contenu multimédia (affiches, vidéos, visuels promotionnels)",
+                "Collaboration avec l'équipe créative pour des designs innovants",
+                "Réalisation de projets de communication visuelle pour divers clients"
+            ]
+        },
+        "lmvox": {
+            "title": "LMVox Agency",
+            "role": "Créateur Multimédia",
+            "period": "2024 - 2025",
+            "description": "Une agence spécialisée dans la création de contenu multimédia et Voix Off.",
+            "tasks": [
+                "Conception et réalisation de contenus multimédias (affiches, vidéos, etc.)",
+                "Participation à la création de campagnes visuelles pour des clients",
+                "Production d'animations 2D pour des vidéos promotionnelles"
+            ]
+        },
+        "visualArtefacts": "Artefacts Visuels",
+        "showreel": "Showreel",
+        "software": "Logiciels & Outils",
+        "premierePro": "Premiere Pro",
+        "afterEffects": "After Effects",
+        "photoshop": "Photoshop",
+        "illustrator": "Illustrator",
+        "blender": "Blender/Modélisation 3D",
+        "creativeInnovation": "Innovation Créative",
+        "innovationDesc": "Repousser les limites avec le storytelling visuel de pointe et le motion design.",
+        "futureTitle": "Construisons le",
+        "futureHighlight": "Futur du Contenu",
+        "contactMe": "Me Contacter"
+    },
+    "game": {
+        "heroTitle": "CRÉATION",
+        "heroTitleLine2": "DE MONDES 2D",
+        "heroSubtitle": "Conception et développement d'expériences de jeu 2D immersives avec des mécaniques innovantes et un gameplay engageant.",
+        "experienceTitle": "Expérience Game Dev",
+        "azesarl": {
+            "title": "AZESARL",
+            "role": "Développeur de Jeux Mobiles",
+            "period": "2024 - 2025",
+            "description": "Une entreprise privée de développement de jeux vidéo mobiles.",
+            "tasks": [
+                "Développement et optimisation de jeux vidéo mobiles",
+                "Programmation de mécaniques de jeu et gameplay",
+                "Conception d'expériences interactives 2D"
+            ]
+        },
+        "eventonk": {
+            "title": "EventonK",
+            "role": "Game Designer & Développeur",
+            "period": "2025",
+            "description": "Une jeune entreprise française qui crée et édite des jeux vidéo et des expériences interactives, with a focus on a 2D gamified universe.",
+            "tasks": [
+                "Game Design et création de niveaux",
+                "Développement de mécaniques de gameplay (shop, attaques spéciales, etc.)",
+                "Construction de mondes de jeu 2D immersifs"
+            ]
+        },
+        "gameShowcase": "Vitrine de Jeux",
+        "the2DUniverse": "L'Univers 2D",
+        "unityEngine": "Moteur Unity",
+        "gameDesign": "Game Design",
+        "levelDesign": "Level Design",
+        "gameMechanics": "Mécaniques de Jeu",
+        "engine": "Moteur & Outils",
+        "unity": "Unity",
+        "blenderStudio": "Blender Studio",
+        "csharp": "Programmation C#"
+    },
+    "education": {
+        "title": "Éducation",
+        "licence": {
+            "title": "Licence en ICT for Development",
+            "institution": "Université de Ngaoundéré",
+            "details": [
+                "2023-2024: Première année licence",
+                "2024-2025: Deuxième année licence"
+            ],
+            "field": "Génie Logiciel"
+        },
+        "baccD": {
+            "title": "BACC D",
+            "institution": "Complexe Bilingue Honor"
+        },
+        "bepc": {
+            "title": "BEPC",
+            "institution": "Institut Victor Hugo"
+        },
+        "cep": {
+            "title": "CEP",
+            "institution": "Mission Catholique"
+        }
+    },
+    "training": {
+        "title": "Formation",
+        "items": [
+            "Unity Learn",
+            "Blender Studio Training",
+            "Participation à des hackathons"
+        ]
+    },
+    "contact": {
+        "title": "Me Contacter",
+        "email": "Email",
+        "description": "Prêt à collaborer ? Créons quelque chose d'incroyable ensemble.",
+        "sendMessage": "Envoyer",
+        "emailPlaceholder": "Votre email",
+        "messagePlaceholder": "Votre message",
+        "namePlaceholder": "Votre nom"
+    },
+    "footer": {
+        "rights": "Tous droits réservés.",
+        "madeWith": "Fait avec",
+        "headings": {
+            "links": "Liens",
+            "social": "Social"
+        },
+        "labels": {
+            "portfolio": "Portfolio"
+        }
+    },
+    "languages": {
+        "title": "Langues",
+        "french": "Français",
+        "english": "Anglais (B1)",
+        "language": "Langue"
+    },
+    "home": {
+        "title": "T4ZOR",
+        "choosePath": "CHOISISSEZ VOTRE VOIE",
+        "creator": "CRÉATEUR",
+        "developer": "DÉVELOPPEUR",
+        "role": "MONTEUR VIDÉO & DÉV JEU",
+        "heroSubtitle": "Sculpter des expériences numériques de haute énergie où la précision technique rencontre le flair créatif brut.",
+        "location": "BASÉ EN FRANCE",
+        "sayHello": "DITES BONJOUR",
+        "achievements": {
+            "title": "DERNIÈRES RÉALISATIONS",
+            "projects": "PROJETS LIVRÉS",
+            "views": "VUES",
+            "awards": "pour obtenir des resultats"
+        },
+        "cta": {
+            "title": "PRÊT À COMMENCER ?",
+            "subtitle": "Disponible pour de nouveaux défis créatifs.",
+            "button": "ENGAGEZ-MOI"
+        },
+        "services": {
+            "content": {
+                "title": "CRÉATION DE CONTENU",
+                "description": "Contenu multimédia, montage vidéo cinématographique et affiches visuelles à fort impact.",
+                "link": "Explorer les Travaux"
+            },
+            "game": {
+                "title": "DÉVELOPPEMENT DE JEU",
+                "description": "Realisation de mecaniques de gameplay 3D/2D, monetisation de jeux, consultant de projets",
+                "link": "Voir le Gameplay"
+            }
+        }
+    },
+    "personality": {
+        "title": "Personnalité",
+        "traits": [
+            "Brave",
+            "Passionné",
+            "Organisé",
+            "Légèrement anxieux"
+        ]
+    },
+    "gamePortfolio": {
+        "hero": {
+            "status": "STATUT // ACTIF",
+            "rank": "RANG // MAÎTRE",
+            "level": "NIVEAU 25",
+            "hp": "PV",
+            "stm": "STM",
+            "equipped": "ÉQUIPÉ",
+            "input": "CLAVIER + SOURIS",
+            "version": "VERSION 4.2.0",
+            "creativeEnergy": "Énergie Créative",
+            "technicalSkills": "Compétences Tech",
+            "xpEarned": "XP GAGNÉ",
+            "description": "Conception et développement d'expériences de jeu 2D immersives avec des mécaniques innovantes et un gameplay engageant. Spécialisé en Unity, C# et expériences interactives captivantes."
+        },
+        "skills": {
+            "title": "ÉQUIPEMENT_TECH",
+            "lobby": "LOBBY",
+            "selected": "MODULE // SÉLECTIONNÉ",
+            "next": "SUIVANT // PROCHAINE_COMP",
+            "mastered": "MAÎTRISÉ //",
+            "efficiency": "Efficacité",
+            "items": {
+                "csharp": {
+                    "name": "C# / .NET",
+                    "desc": "Langage principal pour le développement Unity et les systèmes backend."
+                },
+                "unity": {
+                    "name": "Unity 3D",
+                    "desc": "Moteur principal pour les expériences interactives 3D et 2D."
+                },
+                "shader": {
+                    "name": "Shader Lab",
+                    "desc": "Shaders HLSL/GLSL personnalisés pour des effets visuels uniques."
+                },
+                "optimization": {
+                    "name": "Optimisation",
+                    "desc": "Profilage et optimisation des draw calls, de la mémoire et du CPU."
+                },
+                "design": {
+                    "name": "Game Design",
+                    "desc": "Conception de mécaniques, équilibrage et psychologie du joueur."
+                }
+            }
+        },
+        "quests": {
+            "title": "JOURNAL_DES_MISSIONS",
+            "subtitle": "ARCHIVE // RÉALISATIONS",
+            "status": {
+                "completed": "TERMINÉ",
+                "inProgress": "EN_COURS",
+                "archived": "ARCHIVÉ"
+            },
+            "autoplay": "LECTURE_AUTO // SURVOLER_POUR_ACCÉDER",
+            "items": {
+                "quest01": {
+                    "title": "EVENTOKEN_X",
+                    "desc": "Architecte technique principal pour un écosystème de jeu basé sur la blockchain. Intégration Unity, architecture Web3."
+                },
+                "quest02": {
+                    "title": "AZE_SARL",
+                    "desc": "Développement d'un module de formation VR pour la sécurité industrielle. Intégration Oculus Quest 2."
+                },
+                "quest03": {
+                    "title": "NEO_RUNNER",
+                    "desc": "Runner mobile à haute intensité avec niveaux générés de manière procédurale et effets de shaders."
+                },
+                "quest04": {
+                    "title": "CYBER_ARENA",
+                    "desc": "Système de combat multijoueur avec physique en temps réel et environnements destructibles."
+                },
+                "quest05": {
+                    "title": "VOID_WALKER",
+                    "desc": "Jeu d'horreur atmosphérique utilisant des techniques d'éclairage avancées et audio spatial."
+                }
+            }
+        },
+        "experience": {
+            "title": "CHRONIQUE",
+            "history": "HISTORIQUE",
+            "subtitle": "PARCOURS_PROFESSIONNEL",
+            "items": {
+                "azesarl": {
+                    "company": "AZESARL",
+                    "role": "Développeur Jeux Mobiles",
+                    "period": "2024 - 2025",
+                    "desc": "Développement de jeux d'arcade 2D haute performance. Optimisation du rendu et physique personnalisée.",
+                    "achievements": [
+                        "Optimisation Mobile 60 FPS",
+                        "Moteur Physique 2D Custom"
+                    ]
+                },
+                "eventonk": {
+                    "company": "EventonK",
+                    "role": "Développeur Unity",
+                    "period": "2025",
+                    "desc": "Création d'expériences 2D interactives pour plateformes éducatives. Spécialisé en UI/UX et game feel.",
+                    "achievements": [
+                        "98% Taux d'Engagement",
+                        "Framework UI Modulaire"
+                    ]
+                },
+                "lmvox": {
+                    "company": "Indépendant",
+                    "role": "Développeur Indépendant de Jeu Vidéo",
+                    "period": "2024 - 2025",
+                    "desc": "Conception et développement de jeux vidéo en indépendant. Maîtrise créative et technique complète du concept à la sortie.",
+                    "achievements": [
+                        "Automatisation Pipeline Assets",
+                        "Shaders HLSL Custom"
+                    ]
+                }
+            }
+        },
+        "cta": {
+            "title": "PRÊT À JOUER ?",
+            "description": "Le niveau actuel est terminé, mais la prochaine quête attend. Si votre projet nécessite un développeur de haut niveau avec un équipement légendaire, je suis votre joueur.",
+            "startChat": "LANCER_CHAT",
+            "viewGithub": "VOIR_GITHUB",
+            "subtitle": "Disponible pour des missions créatives à haut risque.",
+            "contact": "INITIER_CONTACT",
+            "docs": "TÉLÉCHARGER_DOCS"
+        }
+    },
+    "videoPortfolio": {
+        "hero": {
+            "badge": "Direction Créative",
+            "title": "TRANSFORMER LES",
+            "titleHighlight": "VISIONS EN",
+            "titleEnd": "FLUX",
+            "subtitle": "Conception d'expériences numériques à haut volume pour plus de 20 agences et marques mondiales. Spécialiste du contenu narratif à forte croissance d'engagement.",
+            "ctaPrimary": "ME CONTACTER",
+            "ctaSecondary": "EN SAVOIR PLUS",
+            "activeProjects": "PROJETS ACTIFS",
+            "project1": {
+                "name": "Agence Stride",
+                "status": "Stratégie Active"
+            },
+            "project2": {
+                "name": "Vision Startup",
+                "status": "Cas de Production"
+            }
+        },
+        "presentation": {
+            "title": "Showreel 2024",
+            "subtitle": "Un aperçu de notre processus créatif et de nos travaux passés."
+        },
+        "gallery": {
+            "title": "Galerie de Montage Vidéo",
+            "subtitle": "Collection curatée de montages à fort impact, des campagnes commerciales au storytelling cinématographique.",
+            "categories": {
+                "commercial": "COMMERCIAL",
+                "event": "ÉVÉNEMENT",
+                "cinematic": "CINÉMATOGRAPHIQUE"
+            },
+            "items": {
+                "oceanic": "Volatilité Océanique",
+                "digiRel": "Métamorphose Digi-Rel",
+                "vertical": "Brillance Verticale Next-Gen"
+            },
+            "social": {
+                "instagram": "Instagram",
+                "linkedin": "LinkedIn",
+                "behance": "Behance"
+            }
+        },
+        "retroTV": {
+            "badge": "LECTEUR RÉTRO",
+            "mobile": "MOBILE",
+            "crt": "TV CATHODIQUE",
+            "nowPlaying": "LECTURE EN COURS"
+        },
+        "disciplines": {
+            "title": "Disciplines Clés",
+            "items": {
+                "postProd": {
+                    "title": "Stratégie de Post-Production",
+                    "desc": "Évaluation technique et créative des rushes pour développer une narration visuelle claire."
+                },
+                "highFreq": {
+                    "title": "Production Haute Fréquence",
+                    "desc": "Flux de travail de contenu accéléré pour les marques ayant besoin d'une présence constante et percutante sur les réseaux sociaux."
+                }
+            }
+        },
+        "cta": {
+            "title": "Prêt à",
+            "titleHighlight": "Amplifier Votre Histoire ?",
+            "primary": "Initier une Collaboration",
+            "secondary": "Explorer Plus",
+            "emailSubject": "Demande de Collaboration - Projet Vidéo",
+            "emailBody": "Bonjour Alex,\n\nJe viens de voir votre portfolio et je souhaiterais discuter d'une éventuelle collaboration avec vous sur un projet vidéo.\n\nCordialement,"
+        },
+        "footer": {
+            "rights": "© 2024 PORTFOLIO HUB • TOUS DROITS RÉSERVÉS",
+            "tabs": {
+                "studio": "Studio",
+                "showreel": "Showreel",
+                "retrotv": "Rétro TV",
+                "work": "Travail",
+                "services": "Services",
+                "contact": "Contact"
+            }
+        }
+    },
+    "sidebar": {
+        "labels": {
+            "home": "Accueil",
+            "creator": "Créateur de Contenu",
+            "creatorSub": "Vidéo",
+            "developer": "Développeur de Jeux",
+            "developerSub": "Jeu"
+        },
+        "hubTitle": "Portfolio Hub",
+        "selectDiscipline": "CHOISISSEZ UNE DISCIPLINE",
+        "lightMode": "Mode Clair",
+        "darkMode": "Mode Sombre",
+        "downloadResume": "Télécharger mon CV"
+    },
+    "resumeModal": {
+        "title": "Choisir la langue",
+        "fr": "Français",
+        "en": "Anglais",
+        "close": "Fermer"
+    }
+}

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark;
+}
+
+
+
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: false;
+  prefersdark: false;
+  color-scheme: "light";
+  --color-base-100: oklch(100% 0 0);
+  --color-base-200: oklch(97.466% 0.011 259.822);
+  --color-base-300: oklch(93.268% 0.016 262.751);
+  --color-base-content: oklch(41.886% 0.053 255.824);
+  --color-primary: oklch(56.86% 0.255 257.57);
+  --color-primary-content: oklch(91.372% 0.051 257.57);
+  --color-secondary: oklch(42.551% 0.161 282.339);
+  --color-secondary-content: oklch(88.51% 0.032 282.339);
+  --color-accent: oklch(59.939% 0.191 335.171);
+  --color-accent-content: oklch(11.988% 0.038 335.171);
+  --color-neutral: oklch(19.616% 0.063 257.651);
+  --color-neutral-content: oklch(83.923% 0.012 257.651);
+  --color-info: oklch(88.127% 0.085 214.515);
+  --color-info-content: oklch(17.625% 0.017 214.515);
+  --color-success: oklch(80.494% 0.077 197.823);
+  --color-success-content: oklch(16.098% 0.015 197.823);
+  --color-warning: oklch(89.172% 0.045 71.47);
+  --color-warning-content: oklch(17.834% 0.009 71.47);
+  --color-error: oklch(73.092% 0.11 20.076);
+  --color-error-content: oklch(14.618% 0.022 20.076);
+  --radius-selector: 1rem;
+  --radius-field: 0.5rem;
+  --radius-box: 1rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+
+  /* Hero Theme Variables */
+  --hero-bg: #fff5f0;
+  /* Soft Peach */
+  --hero-text: oklch(25% 0.05 45);
+  --hero-text-muted: oklch(45% 0.04 45);
+  --hero-accent: #ff4d00;
+  --hero-card-bg: rgba(0, 0, 0, 0.05);
+}
+
+
+@plugin "daisyui/theme" {
+  name: "dark";
+  default: false;
+  prefersdark: false;
+  color-scheme: "dark";
+  --color-base-100: oklch(14% 0.004 49.25);
+  --color-base-200: oklch(21% 0.006 56.043);
+  --color-base-300: oklch(26% 0.007 34.298);
+  --color-base-content: oklch(97% 0.001 106.424);
+  --color-primary: oklch(57% 0.245 27.325);
+  --color-primary-content: oklch(97% 0.013 17.38);
+  --color-secondary: oklch(64% 0.222 41.116);
+  --color-secondary-content: oklch(98% 0.016 73.684);
+  --color-accent: oklch(0% 0 0);
+  --color-accent-content: oklch(100% 0 0);
+  --color-neutral: oklch(21% 0.006 56.043);
+  --color-neutral-content: oklch(98% 0.001 106.423);
+  --color-info: oklch(54% 0.245 262.881);
+  --color-info-content: oklch(97% 0.014 254.604);
+  --color-success: oklch(62% 0.194 149.214);
+  --color-success-content: oklch(98% 0.018 155.826);
+  --color-warning: oklch(64% 0.222 41.116);
+  --color-warning-content: oklch(98% 0.016 73.684);
+  --color-error: oklch(58% 0.253 17.585);
+  --color-error-content: oklch(96% 0.015 12.422);
+  --radius-selector: 0.5rem;
+  --radius-field: 0.5rem;
+  --radius-box: 2rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 1;
+
+  /* Hero Theme Variables */
+  --hero-bg: #ff4d00;
+  /* Vibrant Orange */
+  --hero-text: #ffffff;
+  --hero-text-muted: rgba(255, 255, 255, 0.4);
+  --hero-accent: #ffffff;
+  --hero-card-bg: rgba(0, 0, 0, 0.2);
+}
+
+
+@theme {
+  --color-t4zor-orange: #ff4d00;
+  --color-neon-cyan: #00f0ff;
+  --color-neon-purple: #a855f7;
+  --color-neon-blue: #3b82f6;
+  --color-neon-green: #22c55e;
+  --color-neon-pink: #ec4899;
+
+  --color-t4zor-orange: #ff4d00;
+  /* Always vibrant orange */
+  --color-hero-bg: var(--hero-bg);
+  --color-hero-text: var(--hero-text);
+  --color-hero-text-muted: var(--hero-text-muted);
+  --color-hero-accent: var(--hero-accent);
+  --color-hero-card-bg: var(--hero-card-bg);
+
+  --color-neon-cyan: #00f0ff;
+  --color-neon-purple: #a855f7;
+  --color-neon-blue: #3b82f6;
+  --color-neon-green: #22c55e;
+  --color-neon-pink: #ec4899;
+
+  --font-sans: 'Outfit',
+    'Inter',
+    system-ui,
+    sans-serif;
+  --font-mono: 'JetBrains Mono',
+    'Fira Code',
+    monospace;
+  --font-brand: 'Orbitron', sans-serif;
+  --font-game: 'Rajdhani', sans-serif;
+
+  --color-game-neon-green: #00ffb3;
+  --color-game-neon-blue: #0066ff;
+  --color-game-neon-cyan: #00f0ff;
+  --color-game-accent-orange: #ff9900;
+  --color-game-bg-dark: #0b0d11;
+  --color-game-card: rgba(20, 22, 28, 0.8);
+}
+
+.font-brand {
+  font-family: var(--font-brand);
+}
+
+/* ========== GLOBAL STYLES ========== */
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+section {
+  padding: 2rem;
+}
+
+
+
+
+
+.border-dashed-custom {
+  border: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.no-scrollbar::-webkit-scrollbar,
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar,
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

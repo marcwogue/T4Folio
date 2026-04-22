@@ -1,0 +1,13 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ],
+  "compilerOptions": {
+    "moduleResolution": "node", // ou "bundler" selon ta version
+    "allowImportingTsExtensions": false, 
+    "jsx": "react-jsx"
+  }
+}
