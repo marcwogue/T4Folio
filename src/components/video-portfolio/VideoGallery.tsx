@@ -4,6 +4,7 @@ import { FaArrowRight } from 'react-icons/fa';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards, Navigation } from 'swiper/modules';
 import type { Swiper as SwiperType } from 'swiper';
+import medias from '../../data/medias.json';
 
 // Swiper styles (already imported in VideoPortfolio, but let's keep them here too if needed, though they are global usually)
 // In this project they seem to be imported in the page. I'll let the page handle global style imports if possible, or include them here.
@@ -16,13 +17,7 @@ export default function VideoGallery() {
     const { t } = useTranslation();
     const swiperRef = useRef<SwiperType | null>(null);
 
-    const galleryItems = [
-        { key: 'oceanic', category: 'commercial', thumb: '/v1.png' },
-        { key: 'digiRel', category: 'event', thumb: '/v2.png' },
-        { key: 'vertical', category: 'cinematic', thumb: '/v3.jpg' },
-        { key: 'oceanic', category: 'commercial', thumb: '/v4.png' },
-        { key: 'digiRel', category: 'event', thumb: '/v5.png' }
-    ];
+    const galleryItems = medias.videoPortfolio.gallery;
 
     return (
         <section id="work" className="mb-32 overflow-hidden">

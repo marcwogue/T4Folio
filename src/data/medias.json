@@ -1,0 +1,72 @@
+{
+    "global": {
+        "logo": "/logos.png",
+        "avatar": "/logos.png"
+    },
+    "home": {
+        "hero": {
+            "bgText": "T4ZOR"
+        }
+    },
+    "videoPortfolio": {
+        "gallery": [
+            {
+                "key": "oceanic",
+                "category": "commercial",
+                "thumb": "/v1.png"
+            },
+            {
+                "key": "digiRel",
+                "category": "event",
+                "thumb": "/v2.png"
+            },
+            {
+                "key": "vertical",
+                "category": "cinematic",
+                "thumb": "/v3.jpg"
+            },
+            {
+                "key": "oceanic",
+                "category": "commercial",
+                "thumb": "/v4.png"
+            },
+            {
+                "key": "digiRel",
+                "category": "event",
+                "thumb": "/v5.png"
+            }
+        ],
+        "retroTV": {
+            "videos": [
+                {
+                    "name": "LAZONE",
+                    "src": "https://drive.google.com/file/d/1Fzah6oV37v_riTaLquU1xyC2U_ZiH2r2/view?pli=1"
+                },
+                {
+                    "name": "LM VOX SPOT",
+                    "src": "/videos/LM VOX SPOT.mp4"
+                },
+                {
+                    "name": "LMVox Agency",
+                    "src": "/videos/LMVox Agency.mp4"
+                },
+                {
+                    "name": "LMvox",
+                    "src": "/videos/LMvox.mp4"
+                },
+                {
+                    "name": "NovaHair",
+                    "src": "/videos/NovaHair.mp4"
+                },
+                {
+                    "name": "PALMHAIR",
+                    "src": "/videos/PALMHAIR.mp4"
+                },
+                {
+                    "name": "Scentless",
+                    "src": "/videos/Scentless.mp4"
+                }
+            ]
+        }
+    }
+}

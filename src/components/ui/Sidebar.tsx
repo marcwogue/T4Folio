@@ -1,14 +1,13 @@
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaVideo, FaGamepad, FaAngleRight, FaAngleLeft, FaCog } from 'react-icons/fa';
-import { HiHome, HiX } from 'react-icons/hi';
+import { HiHome, HiX, HiSun, HiMoon } from 'react-icons/hi';
 import { MdLanguage } from 'react-icons/md';
 import { useTheme } from '../../context/ThemeContext';
-import { HiSun, HiMoon } from 'react-icons/hi';
-import { IoColorPaletteOutline, IoGameControllerOutline } from 'react-icons/io5';
+import { IoColorPaletteOutline, IoGameControllerOutline, IoCloudDownloadOutline } from 'react-icons/io5';
 import { useTranslation } from 'react-i18next';
 import { useTransition } from '../../context/TransitionContext';
-import { IoCloudDownloadOutline } from 'react-icons/io5';
+import medias from '../../data/medias.json';
 import { useState, useEffect, useRef } from 'react';
 import ResumeModal from './ResumeModal';
 
@@ -241,7 +240,7 @@ export default function Sidebar({ isExpanded, onToggle }: SidebarProps) {
                         }`}>
                         <div className={`w-10 h-10 rounded-full overflow-hidden shrink-0 ${(isExpanded || isMobileMenuOpen) ? 'bg-neutral-800' : 'bg-transparent'}`}>
                             {/* Avatar Placeholder */}
-                            <img src="/logos.png" alt="Avatar" className="w-full h-full object-cover" />
+                            <img src={medias.global.avatar} alt="Avatar" className="w-full h-full object-cover" />
                         </div>
                         {(isExpanded || isMobileMenuOpen) && (
                             <div className="flex flex-col min-w-0">

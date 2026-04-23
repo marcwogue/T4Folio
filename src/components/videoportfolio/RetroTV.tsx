@@ -3,19 +3,12 @@ import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { RoundedBox } from '@react-three/drei';
 import * as THREE from 'three';
 import { useTranslation } from 'react-i18next';
+import medias from '../../data/medias.json';
 
 /* ──────────────────────────────────────────────
    Video list from public/videos
    ────────────────────────────────────────────── */
-const VIDEOS = [
-    { name: 'LAZONE', src: 'https://drive.google.com/file/d/1Fzah6oV37v_riTaLquU1xyC2U_ZiH2r2/view?pli=1' },
-    { name: 'LM VOX SPOT', src: '/videos/LM VOX SPOT.mp4' },
-    { name: 'LMVox Agency', src: '/videos/LMVox Agency.mp4' },
-    { name: 'LMvox', src: '/videos/LMvox.mp4' },
-    { name: 'NovaHair', src: '/videos/NovaHair.mp4' },
-    { name: 'PALMHAIR', src: '/videos/PALMHAIR.mp4' },
-    { name: 'Scentless', src: '/videos/Scentless.mp4' },
-];
+const VIDEOS = medias.videoPortfolio.retroTV.videos;
 
 /** Returns true if aspect ratio is portrait (phone-like) */
 function isPortraitRatio(ratio: number): boolean {

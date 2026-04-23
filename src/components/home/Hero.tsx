@@ -4,6 +4,7 @@ import { IoColorPaletteOutline, IoGameControllerOutline } from 'react-icons/io5'
 import { Link } from 'react-router-dom';
 import { useTransition } from '../../context/TransitionContext';
 import links from '../../constants/links.json';
+import medias from '../../data/medias.json';
 
 export default function Hero() {
     const { t } = useTranslation();
@@ -14,7 +15,7 @@ export default function Hero() {
         <section className="relative min-h-[90vh] bg-hero-bg flex flex-col justify-center overflow-hidden">
             {/* Background Text / Patterns */}
             <div className="absolute inset-0 z-0 opacity-10 pointer-events-none flex items-center justify-center">
-                <span className="text-[40vw] font-black text-hero-accent leading-none select-none">T4ZOR</span>
+                <span className="text-[40vw] font-black text-hero-accent leading-none select-none">{medias.home.hero.bgText}</span>
             </div>
 
             <div className="max-w-7xl mx-auto px-6 lg:px-12 w-full relative z-10 flex flex-col pt-20">

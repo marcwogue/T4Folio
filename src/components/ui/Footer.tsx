@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { FaGithub, FaEnvelope, FaHeart } from 'react-icons/fa';
 import links from '../../constants/links.json';
+import medias from '../../data/medias.json';
 
 export default function Footer() {
     const { t } = useTranslation();
@@ -23,7 +24,7 @@ export default function Footer() {
                     >
                         <div className="flex items-center gap-2 mb-4">
                             <div className="w-10 h-10 rounded-xl bg-linear-to-br from-neon-cyan to-neon-purple flex items-center justify-center text-white font-bold text-lg">
-                                <img src="/logos.png" alt="t4logos" className='rounded-xl object-cover' />
+                                <img src={medias.global.logo} alt="t4logos" className='rounded-xl object-cover' />
                             </div>
                             <span className="font-bold text-lg">{t('footer.labels.portfolio')}</span>
                         </div>
