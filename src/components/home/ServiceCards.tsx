@@ -46,17 +46,17 @@ export default function ServiceCards() {
                         >
                             <motion.div
                                 whileHover={{ y: -10 }}
-                                className="group relative bg-[#13131a] rounded-4xl md:rounded-[2.5rem] p-6 md:p-10 border border-white/5 overflow-hidden transition-all hover:border-white/10"
+                                className="group relative bg-[#13131a] rounded-4xl md:rounded-[2.5rem] py-5 px-6 md:p-10 border border-white/5 overflow-hidden transition-all hover:border-white/10"
                             >
-                                <div className="flex flex-col gap-6 relative z-10">
+                                <div className="flex flex-col items-center md:items-start text-center md:text-left gap-4 md:gap-6 relative z-10">
                                     <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center">
                                         {service.icon}
                                     </div>
-                                    <div className="flex flex-col gap-4">
-                                        <h3 className="text-3xl font-black text-white tracking-tight leading-tight uppercase">
+                                    <div className="flex flex-col items-center md:items-start gap-2 md:gap-4">
+                                        <h3 className="text-2xl md:text-3xl font-black text-white tracking-tight leading-tight uppercase">
                                             {service.title}
                                         </h3>
-                                        <p className="text-white/40 leading-relaxed max-w-sm">
+                                        <p className="text-white/40 text-sm md:text-base leading-relaxed max-w-sm">
                                             {service.description}
                                         </p>
                                     </div>
