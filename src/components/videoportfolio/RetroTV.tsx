@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
    Video list from public/videos
    ────────────────────────────────────────────── */
 const VIDEOS = [
-    { name: 'LAZONE', src: '/videos/LAZONE.mp4' },
+    { name: 'LAZONE', src: 'https://drive.google.com/file/d/1Fzah6oV37v_riTaLquU1xyC2U_ZiH2r2/view?pli=1' },
     { name: 'LM VOX SPOT', src: '/videos/LM VOX SPOT.mp4' },
     { name: 'LMVox Agency', src: '/videos/LMVox Agency.mp4' },
     { name: 'LMvox', src: '/videos/LMvox.mp4' },
