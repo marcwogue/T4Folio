@@ -435,7 +435,7 @@
     },
     "mobile": {
         "helper": {
-            "swipeText": "Swipe from the left to open the menu",
+            "swipeText": "Swipe at the top to open the menu",
             "gotIt": "Got it"
         }
     }

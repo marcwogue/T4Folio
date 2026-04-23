@@ -27,14 +27,14 @@ export default function MobileHelper() {
         <AnimatePresence>
             {isVisible && (
                 <motion.div
-                    initial={{ opacity: 0, x: -50 }}
-                    animate={{ opacity: 1, x: 0 }}
+                    initial={{ opacity: 0, y: -20 }}
+                    animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, scale: 0.9 }}
-                    className="fixed left-6 bottom-24 z-100 md:hidden"
+                    className="fixed left-6 top-16 z-100 md:hidden"
                 >
                     <div className="relative bg-primary text-white p-4 rounded-2xl shadow-2xl flex flex-col gap-3 max-w-[200px]">
                         {/* Pointer Arrow */}
-                        <div className="absolute -left-2 top-1/2 -translate-y-1/2 w-4 h-4 bg-primary rotate-45" />
+                        <div className="absolute left-1/2 -top-2 -translate-x-1/2 w-4 h-4 bg-primary rotate-45" />
 
                         <div className="flex items-center gap-3">
                             <motion.div
@@ -44,7 +44,7 @@ export default function MobileHelper() {
                                 <HiArrowRight size={20} />
                             </motion.div>
                             <span className="text-xs font-bold leading-tight">
-                                {t('mobile.helper.swipeText') || "Swipe from the left to open the menu"}
+                                {t('mobile.helper.swipeText') || "Swipe at the top to open the menu"}
                             </span>
                         </div>
 

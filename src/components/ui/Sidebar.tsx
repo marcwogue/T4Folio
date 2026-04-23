@@ -52,15 +52,17 @@ export default function Sidebar({ isExpanded, onToggle }: SidebarProps) {
         const handleTouchMove = (e: TouchEvent) => {
             if (touchStartX.current === null) return;
             const touchEndX = e.touches[0].clientX;
+
             const diff = touchEndX - touchStartX.current;
 
-            // Reveal if swipe from edge (first 30px) towards right
-            if (touchStartX.current < 30 && diff > 50 && !isMobileMenuOpen) {
+            // Reveal if swipe in top zone (0-48px) towards right
+            // Note: touchStartX.current check is removed to allow swipe from anywhere horizontally
+            if (e.touches[0].clientY < 48 && diff > 50 && !isMobileMenuOpen) {
                 setIsMobileMenuOpen(true);
                 touchStartX.current = null;
             }
 
-            // Hide if swipe left
+            // Hide if swipe left anywhere (or keep it simple)
             if (isMobileMenuOpen && diff < -50) {
                 setIsMobileMenuOpen(false);
                 touchStartX.current = null;
@@ -105,7 +107,7 @@ export default function Sidebar({ isExpanded, onToggle }: SidebarProps) {
             <motion.aside
                 initial={false}
                 animate={{
-                    width: isExpanded ? '280px' : '88px',
+                    width: (window.innerWidth < 768 || isExpanded) ? '280px' : '88px',
                     x: (window.innerWidth < 768 && !isMobileMenuOpen) ? '-100%' : '0%'
                 }}
                 transition={{ type: 'spring', stiffness: 300, damping: 30 }}
