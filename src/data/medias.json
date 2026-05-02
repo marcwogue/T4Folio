@@ -39,32 +39,58 @@
         "retroTV": {
             "videos": [
                 {
-                    "name": "LAZONE",
-                    "src": "https://drive.google.com/file/d/1Fzah6oV37v_riTaLquU1xyC2U_ZiH2r2/view?pli=1"
+                    "name": "Publicité Vidéo",
+                    "description": "Création de publicités vidéo percutantes pour promouvoir des produits ou services.",
+                    "src": "https://youtu.be/2i-qM7Aq4vI",
+                    "youtubeId": "2i-qM7Aq4vI"
                 },
                 {
                     "name": "LM VOX SPOT",
-                    "src": "/videos/LM VOX SPOT.mp4"
+                    "description": "Créetion de vidéo publicitaire pour LM VOX SPOT en utilisant Character Animator 2D pour animer des personnages de manière réaliste.",
+                    "src": "https://youtu.be/Q_RFHVGyQ2s",
+                    "youtubeId": "Q_RFHVGyQ2s"
+                },
+                {
+                    "name": "Kourtney et Travis : Relation Toxique",
+                    "description": "Storytailling sur la re   lation toxique entre Kourtney Kardashian et Travis Scott.",
+                    "src": "https://youtu.be/XPWtQLL3sp0",
+                    "youtubeId": "XPWtQLL3sp0"
                 },
                 {
                     "name": "LMVox Agency",
-                    "src": "/videos/LMVox Agency.mp4"
+                    "description": "Vidéo publicitaire pour LMVox Agency.",
+                    "src": "https://youtu.be/PHD933jN7T8",
+                    "youtubeId": "PHD933jN7T8"
                 },
                 {
-                    "name": "LMvox",
-                    "src": "/videos/LMvox.mp4"
+                    "name": "Speecut Short",
+                    "description": "Montage vidéo rapide et efficace pour créer du contenu engageant sur les réseaux sociaux à 35€.",
+                    "src": "https://youtube.com/shorts/sEd9yNJMppE?feature=share",
+                    "youtubeId": "sEd9yNJMppE"
                 },
                 {
-                    "name": "NovaHair",
-                    "src": "/videos/NovaHair.mp4"
+                    "name": "PalmHair Short",
+                    "description": "Spot publicitaire pour PalmHair.",
+                    "src": "https://youtube.com/shorts/rju4j9FmTZ0?feature=share",
+                    "youtubeId": "rju4j9FmTZ0"
                 },
                 {
-                    "name": "PALMHAIR",
-                    "src": "/videos/PALMHAIR.mp4"
+                    "name": "Scentless Short",
+                    "description": "Spot publicitaire pour Scentless.",
+                    "src": "https://youtube.com/shorts/miQOgTEBb9E?feature=share",
+                    "youtubeId": "miQOgTEBb9E"
                 },
                 {
-                    "name": "Scentless",
-                    "src": "/videos/Scentless.mp4"
+                    "name": "NovaHair Short",
+                    "description": "Spot publicitaire pour NovaHair.",
+                    "src": "https://youtube.com/shorts/8x730SDx3Ko?feature=share",
+                    "youtubeId": "8x730SDx3Ko"
+                },
+                {
+                    "name": "Video Short pour Axcav",
+                    "description": "Spot publicitaire pour Axcav.",
+                    "src": "https://youtube.com/shorts/ToD_Je-fCeU?feature=share",
+                    "youtubeId": "ToD_Je-fCeU"
                 }
             ]
         }
